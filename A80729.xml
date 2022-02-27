@@ -1,0 +1,605 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>An alarum to England to prevent its destruction by the loss of trade and navigation; which at this day is in great danger. Submitted to consideration in time.</title>
+            <author>Carter, W. (William)</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1700</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 71 KB of XML-encoded text transcribed from 25 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A80729</idno>
+            <idno type="STC">Wing C671A</idno>
+            <idno type="STC">ESTC R231168</idno>
+            <idno type="EEBO-CITATION">99896994</idno>
+            <idno type="PROQUEST">99896994</idno>
+            <idno type="VID">136903</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A80729)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 136903)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 2455:9)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>An alarum to England to prevent its destruction by the loss of trade and navigation; which at this day is in great danger. Submitted to consideration in time.</title>
+                  <author>Carter, W. (William)</author>
+               </titleStmt>
+               <extent>[2], v, [1], 40 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed by K. Astwood, for Mary Fabian, at Mercers-Chappel in Cheapside,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1700</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>W.C. = William Carter, clothier--Wing.</note>
+                  <note>Reproduction of original in the Folger Shakespeare Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Wool industry --  England --  Early works to 1800.</term>
+               <term>Great Britain --  Commerce --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-04</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-04</date>
+            <label>Apex CoVantage</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-07</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-07</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:136903:1"/>
+            <pb facs="tcp:136903:1" rendition="simple:additions"/>
+            <p>AN ALARUM TO ENGLAND, To prevent its Deſtruction By the Loſs of <hi>Trade</hi> and <hi>Navigation;</hi> Which at this Day is in great Danger.</p>
+            <p>
+               <hi>Submitted to Conſideration in time.</hi>
+            </p>
+            <p>By <hi>W. C.</hi>
+            </p>
+            <p>
+               <hi>LONDON,</hi> Printed by <hi>K. Aſtwood,</hi> for <hi>Mary Fabian,</hi> at <hi>Mercers-Chappel</hi> in <hi>Cheapſide,</hi> 1700.</p>
+         </div>
+         <div type="dedication">
+            <pb facs="tcp:136903:2"/>
+            <pb n="i" facs="tcp:136903:2"/>
+            <head>TO THE KING's MOST Excellent Majeſty.</head>
+            <opener>
+               <salute>May it pleaſe Your Majeſty,</salute>
+            </opener>
+            <p>AS the Multitude of your Subjects is an Honour to Your Majeſty, ſo the Employment of them, is both Your Safety and Riches.</p>
+            <p>Great Sir,</p>
+            <p>Theſe few Lines do there<g ref="char:EOLhyphen"/>fore, Humbly crave Your Majeſties Peruſal, becauſe they
+<pb n="ii" facs="tcp:136903:3"/> make it appear, That the Trade and Manufacture of this Nation, ſupports the Go<g ref="char:EOLhyphen"/>vernment, and conſequently the Revenue of the Crown in each Branch thereof; which is Humbly ſubmitted to Your Princely Conſideration by</p>
+            <closer>
+               <signed>
+                  <hi>Your Majeſty's</hi> Moſt Obedient and Dutiful Subject and Servant, W. C.</signed>
+            </closer>
+         </div>
+         <div type="preface">
+            <pb n="iii" facs="tcp:136903:3"/>
+            <head>THE PREFACE.</head>
+            <p>TIS certain that Trade in Ge<g ref="char:EOLhyphen"/>neral is a Great Benefit to, and a Main Support of any Nation; and the Wollen Manufacture of this in particular: Therefore 'tis of Great Con<g ref="char:EOLhyphen"/>cernment, to endeavour by all means poſ<g ref="char:EOLhyphen"/>ſible, to preſerve and increaſe it. But to our Sorrow, we have our Ears fill'd with daily Complaints of the great Decay of it; and the moſt effectual means to find out a Remedy, is to enquire into the Cauſe. I did in the Year, 1669. expreſs my Fears to King <hi>Charles II.</hi> of a great Decay of our Wollen Manufacture; by what I Obſerv'd then, and by woful Ex<g ref="char:EOLhyphen"/>perience we have found it come to paſs.
+<pb n="iv" facs="tcp:136903:4"/> I have in the following Papers endea<g ref="char:EOLhyphen"/>voured to repreſent the Cauſes of it. And the General Cauſe I have obſerv'd to be, the Trading into thoſe Parts, whither but little of our own Manufacture is exported; and the Returns of Forreign Commodi<g ref="char:EOLhyphen"/>ties to us, are made by purchaſe with our Money. The Particulars of which, I have inſtanc'd in our Trade with <hi>France;</hi> which during the Two Laſt Reigns, gave them the Advantage of near Four Milli<g ref="char:EOLhyphen"/>ons <hi>per Annum</hi> of our Money; while but little of our Manufactures was ex<g ref="char:EOLhyphen"/>chang'd for theirs. The like is inſtanc'd in the <hi>Eaſt-India</hi> Trade, which is mainly carried on by our Money, and the <hi>Calli<g ref="char:EOLhyphen"/>coes,</hi> &amp;c. which are imported from thence; not only hinder our own Manu<g ref="char:EOLhyphen"/>factures at Home, but lay a Foundation of the Loſs of our Trade in the Wollen Ma<g ref="char:EOLhyphen"/>nufacture, both with <hi>Flanders</hi> and <hi>Ger<g ref="char:EOLhyphen"/>many.</hi> This Mr. <hi>T. Smith</hi> has hinted, in a Sheet he wrote the laſt Year, concern<g ref="char:EOLhyphen"/>ing the <hi>Eaſt-India</hi> Trade; ſhewing how
+<pb n="v" facs="tcp:136903:4"/> prejudicial it was to our Silk and Wollen Manufactures, which at preſent are well ſetled among us. It tends to our Impo<g ref="char:EOLhyphen"/>veriſhment, by taking away the Employ<g ref="char:EOLhyphen"/>ment of our Poor; depopulates the Na<g ref="char:EOLhyphen"/>tion, leſſens the Value of Lands and Houſes; and expoſes us thereby to the Contempt of our Neighbours.</p>
+         </div>
+      </front>
+      <body>
+         <div type="text">
+            <pb facs="tcp:136903:5"/>
+            <pb n="1" facs="tcp:136903:5"/>
+            <head>An ALARUM, <hi>&amp;c.</hi>
+            </head>
+            <p>IN the Preface of a Diſcourſe, Intituled, <hi>Awake Sampſon:</hi> Printed in the Year, 1696. I hinted that that was intended to be a Preparatory for a General Alarum.</p>
+            <p>Since we were told in the Year, 1678. that there was then a Deſign to ſubvert the Frame of our <hi>Engliſh</hi> Government, the Deſtruction of the Proteſtant Religion, and to adulterate the Coin, and had we took that caution given us timely, we had prevented many of thoſe Evils, which we have ſo ſenſibly ſince felt.</p>
+            <p>And ſince the Deſigns of our Enemies have been variouſly exerciſed, (<hi>viz.</hi>) to deſtroy Trade, to invade Property, to alter on Religion, and to adulterate the Coin of the Nation, which hath coſt us ſo much lately to retrieve; let it be a caution to us in other caſes for the Future.</p>
+            <p>It may ſeem to ſome to be needleſs now, to talk of an Alarum ſeeing we are at Peace; yet the following Diſcourſe will evidence that in the Subject I inſiſt upon, we have more need to be call'd upon now, then in a Time of War: The Reaſons are many, but in General, we know in War Watches are ſet, and People do never ſleep ſecure from Noiſe; but in a Time of Peace Perſons are apt to be too ſecure: I preſume, there is no juſt Occaſion to make an Apology, for waking a Perſon in danger of a Fire, tho' he is forc'd to it againſt his Na<g ref="char:EOLhyphen"/>tural Diſpoſition; and that ſuch a Perſon would
+<pb n="2" facs="tcp:136903:6"/> not be offended, if pull'd out of his Bed when the Flames are about him; tho' he do not ſee it his Eyes being ſhut, and he in a ſound ſleep: It is the Condition of <hi>England</hi> at this time. We have been oft in Danger, and the Fire as oft quench'd, and tho' (generally ſpeaking) we have had very many and great awakening Providences ſounded in our Ears, <hi>Yet we have been like the deaf Addor that ſtoppeth her Ears, and will not hearken to the Voice of Charmers, tho' charming never ſo wiſely;</hi> and do not conſider a Secret Train is laid to blow us up, and tho' we have hitherto been preſerv'd almoſt to a Miracle, yet whether we have any grounds to expect it always, I cannot tell; my Faith is weak: But on the contrary, tho' we in this Age do not pretend to Prophetick Inſpiration, nor do I as little to Prognoſtication, yet by Com<g ref="char:EOLhyphen"/>mon Obſervations any Man may predict, what Concluſions neceſſarily follow ſuch and ſuch Premiſſes; or in a more familiar way of ſpeak<g ref="char:EOLhyphen"/>ing, we know if we keep a certain Road on Shore, or ſteer our Courſe at Sea, whither at length it will bring us.</p>
+            <p>How we have taken our Courſe theſe Forty Years is too Notorious, and for which the Land mourns; (I would be glad to be de<g ref="char:EOLhyphen"/>ceiv'd if my Fears are groundleſs) that it may vomit out many of its Inhabitants, at leaſt ſome of us fall ſhort of our Expectations.</p>
+            <p>And had I not made ſome Obſervations, of the wonderful Goodneſs of God to this Na<g ref="char:EOLhyphen"/>tion; as before hinted: I ſhould have deſpair'd of any hopes of being ſaved from an utter Deſtruction, for the Dangers we are now in
+<pb n="3" facs="tcp:136903:6"/> are ſo great, that tho' we are at preſent (Bleſſed be God) at peace, yet when I conſider, the many thouſands that have lived comfortably in the Trade of our Wollen Manufacture, and which have contributed to the Support of the Government, and Maintenance of the Poor; are now (and like to be more) reduced to want themſelves, having no Employment; by reaſon that many of thoſe Countries that we have formerly ſupplied with thoſe Goods, do make not only for their own Uſe with our Wool, but ſup<gap reason="illegible" resp="#KEYERS" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> other Forreign Countries alſo; and not only ſo, but that we have cut off as it were, and diſobliged both <hi>Ireland</hi> and <hi>Scot<g ref="char:EOLhyphen"/>land</hi> in ſome late Acts; I am not without my Fears what the Effects may be, beſides our Domeſtick Conſumption of Forreign Manu<g ref="char:EOLhyphen"/>facturies, and hindring our own, <hi>&amp;c.</hi>
+            </p>
+            <p>But if it be ſaid by ſome, (as it is) that if we looſe our Woollen Manufacture, we may employ our poor in a Linnen Manu<g ref="char:EOLhyphen"/>facture, <hi>&amp;c.</hi> I muſt anſwer as I did on a like Occaſion, about the Year 1669. in a Tract, Entituled, <hi>England's Intereſt by the Benefit of the Woollen Manufacture: (viz.)</hi> 
+               <q>I am the more large in the Demonſtration of this Affair, not only becauſe this hath coſt me many Years Labour and Study to conſult all ſorts of concern'd Perſons, beſides my own Ex<g ref="char:EOLhyphen"/>perience about it; but alſo becauſe it is ſo hard to convince People of the meaneſt Ca<g ref="char:EOLhyphen"/>pacity, and ſome of the wiſer ſort, how to cure this diſmal Malady which ſome deſpair<g ref="char:EOLhyphen"/>ing of, have rather thought of ſetting up ſome other Manufacture in lieu of endeavour<g ref="char:EOLhyphen"/>ing
+<pb n="4" facs="tcp:136903:7"/> to prevent the Exportation of Wool, and manufacturing that at Home, as that of Lin<g ref="char:EOLhyphen"/>nen, <hi>&amp;c.</hi> which is in my Judgment a great Miſtake, for other Countries have the Ad<g ref="char:EOLhyphen"/>vantage of <hi>England</hi> in that, but not in this of Cloathing; and it will be found that all or moſt Trades in <hi>England,</hi> wholly diſtinct from this of Cloathing, bring not the Tythe of Ad<g ref="char:EOLhyphen"/>vantage that this doth.</q>
+            </p>
+            <p>And to confirm my Sentiments herein tho' ſo long ago writ, I crave leave to add the Opi<g ref="char:EOLhyphen"/>nion of a late Author, who ſay<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>
+            </p>
+            <p>
+               <hi>Divine Providence that appoints to every Na<g ref="char:EOLhyphen"/>tion and Country a particular Portion, ſeems to allot to</hi> England <hi>which was the firſt Acceptable Sacrifice to his Omnipotence, that of the Flock the Produce of which, is the moſt <g ref="char:V">Ʋ</g>niverſal Covering of all Civilized Countries of the World.</hi>
+            </p>
+            <p>
+               <hi>Our Wollen Manufacture is a Talent, which no Nation hath to that perfection as we have; this hath been for many Ages the Support of the Nation, imploying the Poore at home, and our Men and Ships at Sea. Now to decline this, and ſet up another Manufactory, looks like an Extravagant Mechanick, who by his Improvidence hath loſt his own Art, and thinks to retrieve his Miſfortune by taking up that of another Mans: This is condemn'd in particular Perſons, and therefore much more to be ſo in a Community.</hi>
+            </p>
+            <p>But it will be ſaid, <hi>There is not Imployment for the Hands of the Nation in the Wollen Manufactory; and ſince Linnen carries away ſo much of our Money, it ſeems the Intereſt of the Nation to imploy idle Hands, in that which will keep Money in the Kingdom.</hi>
+            </p>
+            <p>
+               <hi>Now tho' both theſe Aſſertions have too much
+<pb n="5" facs="tcp:136903:7"/> Truth in them, yet neither of them have weight e<g ref="char:EOLhyphen"/>nough to enforce the Concluſion, That the Linnen Manufactory is the only Remedy. If we ſearch into the Bottom of our Diſtemper we ſhall find another cauſe of our Diſeaſe.</hi>
+            </p>
+            <p>
+               <hi>It is not becauſe there is leſs Wollen Manufactory uſed in the World than formerly, that our Trade de<g ref="char:EOLhyphen"/>clines, nor yet becauſe we make more than formerly; Nor is it altogether to be aſſigned to the late War: For that our Trade decay'd in the latter part of King</hi> Charles <hi>the Second, and all the Reign of the Late King. The Reaſons then for our Decay in the Wollen Manufactory ſeem to be theſe,</hi>
+            </p>
+            <list>
+               <item>1. <hi>The Growth of Courſe Wollen Manufactory in</hi> Germany, <hi>with which the</hi> Venetians <hi>Trade to</hi> Turkey.</item>
+               <item>2. <hi>The Prohibition of our Wollen Manufactory in</hi> France.</item>
+               <item>3. <hi>The Increaſe of the Wollen Manufactory by our Neighbours with the help of our Wool, ſo that in ſome things they out-do us in the Price they can ſell at.</hi>
+               </item>
+               <item>4. <hi>By the great Wearing of</hi> Eaſt-India <hi>and other Silks, and the <g ref="char:V">Ʋ</g>ſe of</hi> Calicoes, <hi>which was formerly ſupply'd by our</hi> Tammies <hi>and</hi> Says.</item>
+               <item>5. <hi>The Want of the Conſumption of</hi> Ireland, <hi>&amp;c.</hi>
+               </item>
+            </list>
+            <p>
+               <hi>Now if there be any thing in all I have ſaid, it ſeems reaſonable to conſider well; before the Nation gives up its Staple and long-continued Trade for a Shadow, as I take the Linnen Manufactory to be: For although I believe it can never come to effect, yet ſo far it may go, as to injure that of the Wollen, by diverting ſome that are now in it, and ſo raiſeth
+<pb n="6" facs="tcp:136903:8"/> price of Spinning; than which nothing can be more pre<g ref="char:EOLhyphen"/>judicial; for as I mention'd before, nothing can re<g ref="char:EOLhyphen"/>trieve our loſt Trade abroad, but underſelling our Competitors: So then we muſt labour to make ours as Cheap as we can, and not ſet up another Manufactory. To bid who gives moſt for Spinners, is a ready way to ruin the Cloathing Trade of</hi> England, <hi>but not to ſet up the Linnen.</hi>
+            </p>
+            <p>
+               <hi>Let us conſider, beſides what hath been ſaid be<g ref="char:EOLhyphen"/>fore of injuring the Wollen Manufactory: How it will affect the Kingdom in the two Pillars that ſup<g ref="char:EOLhyphen"/>port it, That of the Rents of Land, and the Im<g ref="char:EOLhyphen"/>ploying our Ships and Men at Sea; which are thought the Walls of the Nation.</hi>
+            </p>
+            <p>
+               <hi>For the Rents of the Land they muſt certainly fall, for that one Acre of Flax will employ as many Hands the Year round, as the Wool of Sheep that graze twenty Acres of Ground. The Linnen Manufactory im<g ref="char:EOLhyphen"/>ploys few Men, the Wollen moſt, Weaving, Combing, Dreſſing, Shearing, Dying,</hi> &amp;c. <hi>Theſe eat and drink more than Women and Children, and ſo as the Land that the ſheep graze on raiſeth the Rent, ſo will the Arable and Paſture that bears Corn, and breeds Cattel for their Subſiſtance.</hi>
+            </p>
+            <p>
+               <hi>Then for the Employment of our Shipping, it will ne<g ref="char:EOLhyphen"/>ver be pretended that we can arrive to Exportation of Linnen; there are others and too many before us in that: And the Truth is, he that cannot thrive at his own Trade, will hardly do it in that of anothers. If we are beat out of our Inheritance the Wollen Manufactory by Forreigners, over whom we have ſuch Advantages in our Wool, Fullers-Earth, and long Continuance in the Trade; it can be nothing leſs than a Miracle for us to take from them their Linnen Manufactory, in which they have ſo much the Aſcendant over us.</hi>
+            </p>
+            <pb n="7" facs="tcp:136903:8"/>
+            <p>
+               <hi>I ſhall end this part of my Diſcourſe with the Anſwer of a Weſt Country Man to his Neighbour, that ask'd, what Voyage he had made in a Fiſhing at</hi> New-found-land, <hi>that proved not good?</hi> I have made (<hi>ſaid he</hi>) a brave Voyage, as you may gueſs, for I have ſold my Bible, and bought a Tobacco-Box: <hi>Would it not be ſo to this Nation, if we ſhould change the Nobleſt Manufactory in the World, for the pooreſt and moſt deſpicable: So are thoſe People in all parts of the World, that are im<g ref="char:EOLhyphen"/>ployed in the Linnen Manufactory, which only thrives where the Country is crowded with Poor, and Bread not to be had, at the Charge of the Pariſh, where the Tenant is but a Vaſſal to his Lord, and there is no power in any to relieve; but in the Lord who is ſtrange to the Practice. It is a Miſtake in them that believe the Linnen Manufactory in</hi> Hol<g ref="char:EOLhyphen"/>land, <hi>to be the Product of their own Country: It is only the eaſier part, that of Weaving and Whiting, most of the Thread comes from</hi> Saxony.</p>
+            <p>Thus much for this Author, from whence we may Conclude, That if the Riches and Strength of <hi>England,</hi> were firſt of all begun from our Wollen Manufacture by King <hi>Ed. 3d.</hi> and brought to a greater Perfection in the Reign of Queen <hi>Elizabeth;</hi> we alſo ought to take the ſame care in its preſervation: Otherwiſe we may be reduced to that mean Condition <hi>Eng<g ref="char:EOLhyphen"/>land</hi> was in, when Land and other Commodities was of no Value, till about the Time of that Famous Princeſs Queen <hi>Elizabeth,</hi> whoſe Long and Proſperous Reign had raiſed this Nation to that Riches and Strength, as elſewhere is enlarged; and Sir <hi>Walter Raleigh,</hi> as a Wife
+<pb n="8" facs="tcp:136903:9"/> Stateſ-man, and Lover of his Country, (as many, if not moſt of that Queen's Council were) had began well to promote <hi>Englands</hi> Intereſt, but was in the Reign of King <hi>James</hi> the Firſt undermined by the Intereſt of <hi>Spain,</hi> which was then ſo prevailing that that unfortunate Knight was taken away. But in the latter End of that Reign, and the whole of the three Laſt Kings, inſtead of the <hi>Spaniſh</hi> the <hi>French</hi> Intereſt has ſo much prevailed amongſt us, that we are now under the ſad Effects thereof, and that King about the Year 1661. upon a De<g ref="char:EOLhyphen"/>ſign he had to have forbidden the Trade be<g ref="char:EOLhyphen"/>tween <hi>France</hi> and <hi>England,</hi> ſuppoſing the Va<g ref="char:EOLhyphen"/>lue of <hi>Engliſh</hi> Commodities ſent into <hi>France,</hi> did ſurmont the Value of thoſe that were tranſported hither: The following Particulars were laid before that King. (<hi>viz.</hi>)</p>
+            <p>
+               <table>
+                  <row>
+                     <cell> </cell>
+                     <cell role="label">
+                        <hi>l.</hi>
+                     </cell>
+                  </row>
+                  <row>
+                     <cell>1. There were then tranſported out of <hi>France</hi> into <hi>England,</hi> in Velvets, Sattins, Cloath of Gold and Silver, yearly to the Value of</cell>
+                     <cell>150000</cell>
+                  </row>
+                  <row>
+                     <cell>2. In Silks, Taffaties, Ribbons, <hi>&amp;c.</hi> to the Value of</cell>
+                     <cell>300000</cell>
+                  </row>
+                  <row>
+                     <cell>3. In Silks Ribbonds, Galloons, Laces, Buttons to the Value of</cell>
+                     <cell>150000</cell>
+                  </row>
+                  <row>
+                     <cell>4. In Serges, <hi>&amp;c.</hi> to the Value of</cell>
+                     <cell>150000</cell>
+                  </row>
+                  <row>
+                     <cell>5. Beavors, Demy-Caſtors and Felt-Hatts,</cell>
+                     <cell>120000</cell>
+                  </row>
+                  <row>
+                     <cell>6. In Feathers, Belts, Girdles, Hatbands, Fans, Hoods, Masks, Gilt and Wrought Looking-Glaſſes, Ca<g ref="char:EOLhyphen"/>binets, Watches, Pictures, Caſes, Medals, Tabulets, Bracelets,</cell>
+                     <cell>150000</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <pb n="9" facs="tcp:136903:9"/>7. In Pins, Needles, Box, Combs, Tortoiſe-ſhell Combs,</cell>
+                     <cell>020000</cell>
+                  </row>
+                  <row>
+                     <cell>8. In Perfum'd and Trim'd Gloves,</cell>
+                     <cell>010000</cell>
+                  </row>
+                  <row>
+                     <cell>9. In Paper,</cell>
+                     <cell>100000</cell>
+                  </row>
+                  <row>
+                     <cell>10. Iron-monger Ware,</cell>
+                     <cell>040000</cell>
+                  </row>
+                  <row>
+                     <cell>11. In Linnen Cloth,</cell>
+                     <cell>400000</cell>
+                  </row>
+                  <row>
+                     <cell>12. In Houſhold-ſtuffs, Beds and Hangings,</cell>
+                     <cell>100000</cell>
+                  </row>
+                  <row>
+                     <cell>13. In Aqua-Vitae, Syder, Vine<g ref="char:EOLhyphen"/>gar, Vergis,</cell>
+                     <cell>100000</cell>
+                  </row>
+                  <row>
+                     <cell>14. In Wines,</cell>
+                     <cell>600000</cell>
+                  </row>
+                  <row>
+                     <cell>15. In Saffron, Caſtle-ſaop, Ho<g ref="char:EOLhyphen"/>ney, Almonds, Olives, Capers and Prunes,</cell>
+                     <cell>150000</cell>
+                  </row>
+                  <row>
+                     <cell>Beſides Five or Six Hundred Veſ<g ref="char:EOLhyphen"/>ſels of Salt, yearly amounting unto all about</cell>
+                     <cell>2600000</cell>
+                  </row>
+                  <row>
+                     <cell>And all the Commodies exported hence at that time amounted but to</cell>
+                     <cell>1000000</cell>
+                  </row>
+                  <row>
+                     <cell>So that by this Act the Ballace on the <hi>French</hi> came to</cell>
+                     <cell>1600000</cell>
+                  </row>
+               </table>
+            </p>
+            <p>Upon which the <hi>French</hi> King ſoon laid aſide his Deſign of Prohibition, and inſtead thereof in<g ref="char:EOLhyphen"/>creaſed the Duties laid upon all our Wollen Manufacture imported into his Dominions, of what was imported in the Year 1654. and 1660. (about which time we exported more Goods, eſpecially of our Wollen Manufactures to <hi>France,</hi> then was imported from <hi>France</hi> in<g ref="char:EOLhyphen"/>to <hi>England</hi> in thoſe Years.) But the great Increaſe of <hi>French</hi> Commodities imported into <hi>England,</hi> was after the Arrival of King <hi>Charles</hi> the Second. And we may rationally conclude, that the Duties paid to the <hi>French</hi> King when the aforeſaid Goods, valu'd at 2600000 <hi>l.</hi> were
+<pb n="10" facs="tcp:136903:10"/> exported, together with the Freight, and what was paid for Cuſtom when imported, as alſo the Profit to the Merchant and Retailer, and by the Advance of Price by our Fancies, the ſaid Summ of 2600000 <hi>l.</hi> may be rationally increas'd to 3000000 <hi>l.</hi> ſo that the Conſumers of the <hi>French</hi> Commodities advanced the <hi>French</hi> Intereſt and impoveriſhed our ſelves; but then after this time in 1662. the <hi>French</hi> having got vaſt Quantities of our Wool to encourage that Manufacture, great<g ref="char:EOLhyphen"/>er Duties were impoſed on our <hi>Engliſh</hi> Commodities in the Year 1664. and further increaſed in the Year 1667. not only on our Wollens but on all our <hi>Engliſh</hi> Commodities, even great Duties upon our Shipping, that I my ſelf having occaſion to go to <hi>Lille</hi> in <hi>Flan<g ref="char:EOLhyphen"/>ders,</hi> could not land at <hi>Dunkirk,</hi> tho' I had no Commodities in the Veſſel without paying Tun<g ref="char:EOLhyphen"/>nage; but thi was not all, but the <hi>French</hi> King reſtrain'd and confin'd the Importation of our Wollen Manufactures to his Ports of <hi>Callice</hi> and <hi>Diep,</hi> and other Goods to ſome other in<g ref="char:EOLhyphen"/>convenient Ports: By which means, and by the Encouragement of the Conſumption of the Cloths, Stuffs, <hi>&amp;c.</hi> made by his own People; it amounted to a Prohibition of our Commodi<g ref="char:EOLhyphen"/>ties in many caſes.</p>
+            <p>And by the way, it hath been examin'd that in the Year 1674. or thereabouts; there was imported from <hi>France</hi> Silks to the Value of 300000 <hi>l.</hi> and in Linnen Cloth 500000 <hi>l.</hi> and Wine and Brandy, 217000 <hi>l.</hi> where we may alſo Note, that if ſuch a Quantity was legally enter'd, there was ſome of all
+<pb n="11" facs="tcp:136903:10"/> thoſe Commodities run, as it's called (<hi>viz.</hi>) Stolen and paid no Duties; beſides all ſorts of Lace, when in that Year our Exports to <hi>France</hi> amounted but to 171020 <hi>l.</hi> and it was further Obſerved, that in the Year 1675. the Importation of Wine and Brandy was al<g ref="char:EOLhyphen"/>moſt doubl'd of what it was before, and at the latter End of the Reign of King <hi>James</hi> it was much more increaſed, (<hi>viz.</hi>) the Importation of <hi>French</hi> Wine and Brandy.</p>
+            <p>The great Loſs of the Trade we formerly had with <hi>France</hi> of near 1500000 <hi>l.</hi> per <hi>Annum,</hi> which we exported of our Wollen Manufacture to that Kingdom; occaſion'd that Famous and Worthy Sir <hi>Matthew Hale,</hi> late Lord Chief Juſtice to ſay that our Populouſneſs, which is the greateſt Bleſſing a Kingdom can enjoy; is become the Burthen of our Nation: The uneaſineſs of this Burthen upon us theſe late Years, hath occaſion'd many unusual Remedies and Attempts, many New Acts of Parliament in the Reign of King <hi>Charles</hi> the Second, be<g ref="char:EOLhyphen"/>ing once miſled, our Uneaſineſs made way for a further Deſign upon us, as a Man being out of his way will be ready to liſten believingly unto almoſt any Direction. In the 15th. <hi>Caroli</hi> 2. there was an Act made for the Encourage<g ref="char:EOLhyphen"/>ment of Trade in its Title, whilſt the Body of the Act was no more, than to encourage the Exportation of Corn; (the low Price there<g ref="char:EOLhyphen"/>of being as before, occaſion'd by ſo many thouſands want to Employ, and could not have Money to buy Corn) and to give Liberty to carry away our Bullion, which help'd one ſtep forward. In the next Place followed
+<pb n="12" facs="tcp:136903:11"/> the Act againſt importing Cattle from <hi>Ireland,</hi> which was a Cure like the reſt that led to farther Inconveniencies, this was in the 17th. <hi>Caroli</hi> 2. After which a free Liberty was given to Export Leather, which was in the <hi>20th.</hi> of that King's Reign, directly contrary to for<g ref="char:EOLhyphen"/>mer Statutes ſucceſſively. And to compleat the whole Deſign, in the 25th. <hi>Caroli</hi> 2. there was an Act made, to take off Aliens Duties upon all Commodities of the Growth, Pro<g ref="char:EOLhyphen"/>duct and Manufacture of our Nation, except Coals; which fully anſwer'd their End. All the Priviledges of <hi>England</hi> were given away by wholeſale, whilſt all thoſe Acts proved but turnings in a Feavor, which gave ground to the Diſtemper upon us, no way affecting the true cauſe, and this not matter of choice; if any other way propoſed, the Countrey Air was ſoon thought beſt, (<hi>viz.</hi>) the Parliament ſent home, ſuch was our Caſe in thoſe Reigns; <hi>&amp;c.</hi>
+            </p>
+            <p>Of which Acts I ſhall by and by more en<g ref="char:EOLhyphen"/>large upon, but to ſpeak more of the Trade of <hi>France</hi> and the Conſequence thereof; for as we loſt the great Advantage that formerly we had by the prohibiting of our Wollen Ma<g ref="char:EOLhyphen"/>nufacture in that Kingdom, during moſt of the two laſt Reigns; ſo the unequal Duties laid upon the <hi>German</hi> and <hi>Flanders</hi> Linnens, the Product of our Wollen Manufacture, and by the ſmall Duties laid upon the <hi>French</hi> Lin<g ref="char:EOLhyphen"/>nen, and <hi>Eaſt-India</hi> Calicoes, and Muſlings purchaſed with our Money. This in my Judg<g ref="char:EOLhyphen"/>ment being impartial (<hi>viz.</hi>) (not concern'd in Intereſt) muſt in reaſon be the main Occa<g ref="char:EOLhyphen"/>ſion;
+<pb n="13" facs="tcp:136903:11"/> at leaſt a Foundation for <hi>Germany</hi> and <hi>Flanders,</hi> to encourage the Wollen Manufactury in thoſe parts: And it's well Obſerv'd by the Author of a little Tract, Intituled, <hi>The Inte<g ref="char:EOLhyphen"/>reſt of</hi> England <hi>conſider'd;</hi> Printed in the Year 1694. (<hi>viz.</hi>)</p>
+            <p>
+               <hi>The fine Linnens of</hi> Flanders <hi>and</hi> Germany, <hi>have come in competition theſe many Years with the Calicoes and Muſlings of the</hi> Eaſt-Indies; <hi>and the fine Dowlace and Gauſes of</hi> France, <hi>one the Effect of our Manufactory, the other of our Bul<g ref="char:EOLhyphen"/>lion, and yet you will find upon the Book of Rates, if I miſtake not, all the Linnen of</hi> Flanders <hi>charged with about three pence an Ell Cuſtome, and the fine Dowlace of</hi> France <hi>not at one half penny; and the Callicoes of the</hi> Eaſt-Indies <hi>but at two pence a piece.</hi>
+            </p>
+            <p>Now as that unequal Trade was carried on, all the time almoſt of the two Late Reigns, ſo the Neceſſity in the late War in doubling the Duties upon <hi>Flanders</hi> Linnen, which is almoſt half the Value of much of their ſaid Linnen, and the unſeaſonable timing of the Lace Act, which did (as was lately affirm'd in a Committee, <hi>&amp;c.</hi>) occaſion a <hi>Flanders</hi> Merchant then in <hi>London,</hi> dealing much in Lace, to go over to <hi>Flanders,</hi> and put the States upon the prohibiting our Wollen Manufacture.</p>
+            <p>And tho' this occaſion'd the ſaid Prohibition, yet conſidering the Little Quantity of Lace, at leaſt viſibly brought into <hi>England,</hi> in compariſon of the Linnen imported formerly from <hi>Flanders;</hi> cannot be the Original, tho' it may be the In<g ref="char:EOLhyphen"/>ſtrumental Cauſe as before hinted.</p>
+            <p>Hereby it may appear how we have loſt our
+<pb n="14" facs="tcp:136903:12"/> Trade, and how inſenſibly our Treaſure was exhauſted, and our Nation beggar'd, whilſt we neglected our own Intereſt, and Strangers (ſuch as proved our great Enemies) were di<g ref="char:EOLhyphen"/>ligent to make their Advantage by us, but moſt of thoſe Evils might have been prevented, had we really aſſum'd our Anceſtors regard to our Wealth and Grandeur.</p>
+            <p>But leaving Particulars let us be more ge<g ref="char:EOLhyphen"/>neral, for tho' we are agreed, that Trade is the main Spring from whence Riches flow, yet we do as much differ in the Method of ac<g ref="char:EOLhyphen"/>quiring thereof, and there is certainly as much need of Regulation in Trade, as of Laws to ſecure one Man's Right from being invaded by another, for it's now become as neceſſary to preſerve Government, as it is uſeful to make Men rich.</p>
+            <p>And notwithſtanding the great Influence, that Trade now hath in the Support and Wel<g ref="char:EOLhyphen"/>fare of States and Kingdoms, yet there is no<g ref="char:EOLhyphen"/>thing more unknown, or at leaſt that Men differ more in their Sentiments; than about the true Cauſes that raiſe and promote Trade.</p>
+            <p>The Merchant and other Traders, who ſhould underſtand the true Intereſt of Trade, do either not underſtand it, or elſe leſt it might hinder their private Gain, will not diſ<g ref="char:EOLhyphen"/>cover it.</p>
+            <p>Some Writers about Trade, do in their Treatiſes better ſet forth the Rule to make an Ac<g ref="char:EOLhyphen"/>compliſh'd Merchant, than how it may be moſt profitable to the Nation. And thoſe Argu<g ref="char:EOLhyphen"/>ments every day met with from the Traders, ſeem byaſſed with private Intereſt, and run
+<pb n="15" facs="tcp:136903:12"/> contrary to one anothers, as their Intereſt are oppoſite.</p>
+            <p>And how fair and convincing ſoever their Premiſes may appear, for the Enlarging and Advancement of Trade; the Concluſions of their Arguments, are directly oppoſite.</p>
+            <p>The Reaſons why many Men have not a true Idea of Trade is, Becauſe they apply their Thoughts to particular Parts of Trade, where<g ref="char:EOLhyphen"/>in they are chiefly concern'd in Intereſt; and having found out the beſt Rules and Laws for forming that particular Part, they govern their Thoughts by the ſame Notions in forming the great Body of Trade, and not reflecting on the different Proportion betwixt the Body <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                  <desc>•</desc>
+               </gap>nd Parts, have a very diſagreeable Concep<g ref="char:EOLhyphen"/>tion; and like thoſe, who having learnt to draw well an Eye, Ear, Hand, and other Parts of the Body, (being unskilful in the Laws of Symmetry) when they join them together make a very deformed Body.</p>
+            <p>Therefore whoever will make a true Repre<g ref="char:EOLhyphen"/>ſentation of Trade, muſt draw a rough Scetch of the Body and Parts together, which though it will not entertain with ſo much Pleaſure as a well finiſh'd Peice; yet the agreableneſs of the Parts may be as well diſcern'd, and thereby ſuch Meaſures taken, as may beſt ſuit the Shape of the Body.</p>
+            <p>The Reaſon why I uſe this ſimilitude, is from the Experience we have of the miſerable Effects we now, and may more hereafter feel of this ſeparate Trades that have been carried on in this Kingdom, (<hi>viz.</hi>) that ſome few Per<g ref="char:EOLhyphen"/>ſons gain great Eſtates, when the Nation in
+<pb n="16" facs="tcp:136903:13"/> general decays, as in many Particulars may be inſtanc'd, (<hi>viz.</hi>) the <hi>French</hi> Trade all the Time of the two late Kings, that ſuch Merchants who imported vaſt Quantities (and ſome that run their Goods and paid no Cuſtoms) of ſuch Commodities that were purchaſed with Money, and tended to debauch the Nation, then the <hi>Eaſt-India,</hi> by both thoſe Countries this Nation hath leſſen'd the Employment of near Five Hundred Thouſand Perſons, for by ſuch a Number of Perſons out of Employ, or double that Number but half Work; it's all one the Nation muſt be greatly impoveriſhed thereby: For before that time when People were fully imployed, ſome Families could earn in the Cloathing Trade by ſpinning and weav<g ref="char:EOLhyphen"/>ing Twenty, and ſome Thirty Shillings <hi>per Week,</hi> tho' ſome leſs, others more; which was moſt ſpent by them, and laid out with the Farmer and Graſier, who was thereby better able to pay their Rents to the Nobility and Gentry; by which means the Value of Lands were kept up, but when ſuch a Number of Perſons beforementioned had no Employment, it's not probable the Commodities can be ſold which neceſſarily ſunk the Rents of Lands, and this was the Occaſion of the <hi>Iriſh</hi> Act, (as that before of Corn) to prohibit the Im<g ref="char:EOLhyphen"/>portation of Cattle, ſuppoſing that would be a means to ſupport the Value of Lands in <hi>England:</hi> But the Miſtake is now ſo manifeſt, that we have by it loſt a great part of our Trade, and laid a Foundation to looſe all, and it was well Obſerved by Mr. <hi>Tho. Manly,</hi> a Juſtice of Peace in <hi>Kent,</hi> ſhortly after that
+<pb n="17" facs="tcp:136903:13"/> Act paſt upon another Occaſion about the Ex<g ref="char:EOLhyphen"/>portation of Wool; <hi>(viz.) If the</hi> Iriſh <hi>Wool enables the Forreigners to carry on that Manufacture hurtful to us, we have ſmall reaſon to aſſiſt them further, leaſt we imitate thoſe good Men, who break the Pot, becauſe their Wives break the Pitcher, and ruin our ſelves becauſe</hi> Ireland <hi>hurts us.</hi>
+            </p>
+            <p>For if it be true, as is by ſome affirm'd, (and by Demonſtrations made good) that <hi>England</hi> gain'd by the Trade with <hi>Ireland</hi> before, and in the beginning of the Reign of King <hi>Charles</hi> the Second, Two Millions <hi>per Annum:</hi> It is plain, that Act laid the Foundation of our ruin, for before that Act was in force, the <hi>Iriſh</hi> con<g ref="char:EOLhyphen"/>tented themſelves with Trading only with <hi>England,</hi> by which Trade we received ſo great an Advantage, but ſince the <hi>Iriſh</hi> have been neceſſitated to ſeek for a Trade elſewhere, which they have found to be our Loſs. And tho' the late Act about the Wollen Manufacture in <hi>Ireland,</hi> was well intended to encourage our own; yet as things now ſtand, I am not with<g ref="char:EOLhyphen"/>out my Fears that it will not be ſo advanta<g ref="char:EOLhyphen"/>gious as was expected, and as it might have been done another way: I would be glad if I am deceiv'd in my Fears.</p>
+            <p>Before I paſs <hi>Ireland,</hi> I would crave leave to inſert a part of a Diſcourſe writ by Mr. <hi>An<g ref="char:EOLhyphen"/>drew Marvyl,</hi> and printed in the Year, 1677. (<hi>viz.</hi>)</p>
+            <p>
+               <hi>The fall of Rents, and cheapneſs of Wool, and decay of Manufacture in</hi> England, <hi>being ſuggeſted to be principally occaſion'd by</hi> Ireland, <hi>the</hi> Iriſh <hi>Cattle were thereupon prohibited by an Act of Par<g ref="char:EOLhyphen"/>liament, and declared to be a publick Nuſance.</hi>
+            </p>
+            <pb n="18" facs="tcp:136903:14"/>
+            <p>
+               <hi>Admitting that ſome of thoſe Counties might be be prejudiced by the Importation of</hi> Iriſh <hi>Cattle, yet whatſoever Profit accrued to others by it, did upon the mutual Neceſſities of all, ſettle into the Common Stock of the Nation.</hi>
+            </p>
+            <p>
+               <hi>And it ſeems but reaſonable, that whatſoever private Obligation a Parliament Man hath to the Place where he is Elected; yet when once he comes to ſit, his Truſt and his Mind is enlarg'd, and he does no more conſider himſelf as the Politician of a Shire, or the Patron of a Burrough, but as a Repreſenter of the <g ref="char:V">Ʋ</g>niverſality: Whereas otherwiſe, if any County, one or more chance to be more fer<g ref="char:EOLhyphen"/>tile than other in Members of Parliament, and they act by ſuch narrow Meaſures, the deciſion would be by Multitude, not by Reaſon.</hi>
+            </p>
+            <p>
+               <hi>And notwithſtanding if we were to tell Counties, thoſe that are not advantaged and are really agrieved, make the greateſt Plea; for if we account like Mer<g ref="char:EOLhyphen"/>chants by Profit and Loſs, all the Profit that can be made (and that very ſmall) by this Act, returns to ſuch Counties which are proper for breeding, and that ſmall profit is loſt to them, if not much more by their Corn for want of Trade by it, and the whole Nation hath hereby loſt in great meaſure, the vent of it's Home and Forreign Commodities to</hi> Ireland, <hi>and the increaſing Product to</hi> England <hi>in General, by</hi> Iriſh <hi>Cattle in</hi> Specie.</p>
+            <p>
+               <hi>But as to the Political Point, you did herein as much as in you then lay, to cut off all that ſtrong as more natural Dependance of</hi> Ireland <hi>upon</hi> England, <hi>and to govern it rather by force of Authority, than by the influential Benignity of Intereſt. And tho' I am no Polititian, dare ſay in General, that it concerns you to uſe us kindly, and to indulge us
+<pb n="19" facs="tcp:136903:14"/> in all things that tend to civilize, cultivate, and people this Nation.</hi>
+            </p>
+            <p>
+               <hi>Memorandum,</hi> This was written by Mr. <hi>Marvyl,</hi> under the Notion of a younger Brother in <hi>Ireland</hi> to an Elder Brother in <hi>England;</hi> the reaſon was that it might not be thought his Writing, becauſe he was not willing to diſ<g ref="char:EOLhyphen"/>oblige the <hi>North</hi> Country Members, being his Friends, they being for that Act.</p>
+            <p>The next Act was about Leather, the Effect of which hath leſſen'd the Employment of many Thouſands in that Manufacture; ſo that Act hath given Advantage to Forreigners, contra<g ref="char:EOLhyphen"/>ry to the deſign of the ſaid Laws, and more par<g ref="char:EOLhyphen"/>ticularly one lately made in the <hi>12th.</hi> Year of <hi>Car.</hi> 2. as by the Preamble of that Act may appear; wherein 'tis Evident that the Deſign thereof was for,</p>
+            <list>
+               <item>1. The ſetting on work the Inhabitants of this Realm.</item>
+               <item>2. The Improving the Native Commodities of this Country to it's beſt, fulleſt and utmoſt Uſe.</item>
+               <item>3. And that the Advantage accrewing here<g ref="char:EOLhyphen"/>by, might redound to the Subjects of this King<g ref="char:EOLhyphen"/>dom, and not the Subjects of Forreign Realms.</item>
+            </list>
+            <p>Wherefore theſe three Deſigns were either good, and ſufficient Motives for the Prohibi<g ref="char:EOLhyphen"/>tion therein expreſt or not; if Good and Sin<g ref="char:EOLhyphen"/>cere, then whatſoever is contrary muſt be to the prejudice of <hi>England.</hi>
+            </p>
+            <p>So that if thoſe Acts before-mentioned are con<g ref="char:EOLhyphen"/>trary to the true Intereſt of <hi>England,</hi> and notwith<g ref="char:EOLhyphen"/>ſtanding have produced Effects contrary to Ex<g ref="char:EOLhyphen"/>pectation, we ought to conſider whether it be pro<g ref="char:EOLhyphen"/>per that the ſaid Acts ſhould ſtill remain in force.</p>
+            <pb n="20" facs="tcp:136903:15"/>
+            <p>And then we added another Miſtake, upon a Suppoſition that if Forreigners had a liberty equal to our <hi>Engliſh</hi> Merchants, it would un<g ref="char:EOLhyphen"/>avoidably encourage and encreaſe Trade; and therefore Aliens Duties were taken off; the Effect of which hath, inſtead of that, laid a Foundation to looſe the Freedom of the <hi>Eng<g ref="char:EOLhyphen"/>liſh</hi> Merchant, and let Strangers into the My<g ref="char:EOLhyphen"/>ſtery and Advantage of our Manufacture, as well as ruin many of the Wollen Manufactures of this Kingdom, for when thoſe Forreigners have got ſome Credit, they have engroſſed vaſt Quantities of the ſaid Manufacture, and then leave the King<g ref="char:EOLhyphen"/>dom: So that all thoſe Acts before-mentioned, in<g ref="char:EOLhyphen"/>ſtead of promoting have tended to deſtroy our Trade; and had not the late War fell out as it did, (which occaſion'd the Conſumption of ſo much Fleſh and Corn in the Fleet and Army) it had been much worſe than now it is for the Far<g ref="char:EOLhyphen"/>mer and Grazier. Beſides the General Decay of our Trade, which we ſhould e're this time been more ſenſible of. I ſay again, had not the War came on at that time, we had not only loſt our Trade, but the Liberty of Free-born <hi>Engliſh</hi> Men.</p>
+            <p>And now we have Peace (generally ſpeak<g ref="char:EOLhyphen"/>ing) there is much cauſe upon another Ac<g ref="char:EOLhyphen"/>count, to be afraid we ſhall bring Deſtruction upon our ſelves by the Methods uſed, now to promote a forreign Intereſt, as we did <hi>France</hi> in the Two late Reigns; and tho' we are daily told of our Danger, yet we will not credit thoſe Cautions given us. Which brings to my Mind the Hiſtory of the <hi>Jews,</hi> who tho' they were often told of their Deſtruction that would
+<pb n="21" facs="tcp:136903:15"/> certainly come upon them, if they continu'd to go on in thoſe ways in which they were then walking; and tho' this Warning was given 'em with the greateſt Compaſſion that a Man cou'd expreſs, and all imaginable pains taken to convince them of the certainty of thoſe Evils that were coming upon them; yet they re<g ref="char:EOLhyphen"/>jected all good Counſel, and ſlighted all the Reproofs that were given them by their Pro<g ref="char:EOLhyphen"/>phets, until at laſt Deſtruction came upon them to the uttermoſt, and there was no Re<g ref="char:EOLhyphen"/>medy.</p>
+            <p>I would alſo crave leave to inſtance in the Caſe of the <hi>Grecian</hi> Chriſtians at <hi>Conſtantinople;</hi> that notwithſtanding the many Warnings given them of the Deſigns of the <hi>Turks</hi> againſt them; yet how careleſs and inſenſible they were, and wou'd not make that proviſion for their De<g ref="char:EOLhyphen"/>fence which was required of them, and there<g ref="char:EOLhyphen"/>fore, the Effects of that Careleſneſs was felt by them, when the <hi>Turks</hi> came to poſſeſs that great City: For at the taking of it by <hi>Maho<g ref="char:EOLhyphen"/>met</hi> the Great, <hi>At which time the Riches of the Conquer'd was no better than Poverty, and Beauty worſe than Deformity; but to ſpeak of the hidden Treaſure there found, paſſeth credit; the</hi> Turks <hi>themſelves wondering thereat: Whereof if ſome part had in time been beſtowed upon the Defence of the City, the</hi> Turkiſh <hi>King had not ſo eaſily taken both it and the City. But every man (as now we here) was careful how to encreaſe his private Wealth, few or none regarding the publick State; (it's ſtill our caſe) until in fine every Man with his private Abundance, was wrapped together with his needy Neighbour in the ſelf ſame common Miſery,
+<pb n="22" facs="tcp:136903:16"/> (and who knows what may fall out of the ſame kind hereafter) yet the ſecurity of the</hi> Conſtantinopoli<g ref="char:EOLhyphen"/>tans <hi>was ſuch, that tho' they were always environ'd with their mortal Enemies, yet had they no care of fortifying ſo much as the Inner Wall of the City, but ſuffer'd the Officers, (which had the Charge of it) to convert the greateſt part of the Money into their own Purſe.</hi>
+            </p>
+            <p>I dread to name my Fears, if <hi>England,</hi> which (for many Generations) hath been ſo Famous to all the World, ſhould now be given up to ruin, and be a prey to our Neighbours, and thereby a Scorn and a By-word to the World, by the Evil Practices of it's own Natives; but were we unanimous and true to our real <hi>Engliſh</hi> Intereſt, we need not fear all the World; but on the contrary if we perſiſt in that de<g ref="char:EOLhyphen"/>ſtructive Practice of private Intereſt, what Mi<g ref="char:EOLhyphen"/>ſery may not juſtly be expected by us, when we are ſo inſenſible of the Train that has been ſo long laid to blow up thoſe good Foundations, (which have been ſo many Ages agoe eſtabliſhed by our Noble Anceſtors) of all our <hi>Engliſh</hi> Liberties and Properties: For I know no Nation under Heaven, as at this Day en<g ref="char:EOLhyphen"/>joying thoſe Priviledges we do.</p>
+            <p>It's thirty Years agoe, there was a Tract publiſhed, Entituled, <hi>England's Glory:</hi> (as a Caution to us againſt the Deſigns of its Ene<g ref="char:EOLhyphen"/>mies) which I now fear is departing from us. (I will not ſay as <hi>Phineas</hi>'s Wife at the taking of the Ark, <hi>The Glory was departed from Iſrael</hi>) tho' I may ſay I fear it. I would not fore<g ref="char:EOLhyphen"/>ſtale Providence, nor anticipate the evil Day, yet if I could be any ways inſtrumental, to
+<pb n="23" facs="tcp:136903:16"/> awaken us out of that General Lethargy we are fallen into, I ſhould greatly rejoyce; however, I ſhall endeavour to quiet an uneaſie Mind, by diſcharging it this way, in giving ſome Account of that which hath occaſion'd my Fears.</p>
+            <p>This Nation is hitherto own'd a Free People, but now long that Freedom may be enjoy'd no Mortal can conclude; for if we do (as we ought) ſeriouſly reflect on the condition of moſt Parts of the World, and more particu<g ref="char:EOLhyphen"/>larly many of our neighbouring Nations, how they have loſt their Liberties and Priviledges they formerly enjoyed, and conſider how we at preſent are upheld, and the Dangers we are in by our own Folly, and if we did but a little deny our ſelves, (tho' ſuppos'd) pre<g ref="char:EOLhyphen"/>ſent ſelf-denial, and really purſue our real and true <hi>Engliſh</hi> Intereſt (<hi>viz.</hi>) if I as a private Perſon or in Company carry on a Trade that may be advantagious to my ſelf and Com<g ref="char:EOLhyphen"/>pany, which may not only be prejudicial to a greater Number, but tend to the deſtruction of the whole Kingdom, and peradventure my ſelf at laſt; I therefore in ſuch a caſe ought to deny my ſelf in my private and ſuppos'd pro<g ref="char:EOLhyphen"/>fit; and by this happily preſerve the reſt from Deſtruction: For if through the Loſs of our Manufacture ſome Hundreds of Thouſands have no Employ, Hunger breaks through all Laws, we may not forget what happened not many Years ſince of the <hi>Weavers</hi> in <hi>Spittle<g ref="char:EOLhyphen"/>fields,</hi> and if that was ſo dangerous in one branch of Trade then failing, and but part of this City of <hi>London;</hi> what may we
+<pb n="24" facs="tcp:136903:17"/> not fear, when it ſhall be the General Com<g ref="char:EOLhyphen"/>plaint of the whole Nation; which I fear, we ſhall be more ſenſible of by feeling, than by my writing: And tho' at preſent, thoſe Perſons before-mentioned are ſome of them remov'd, and others by turning their Hands another way; which doth and will affect not only the City of <hi>Norwich,</hi> but the Counties of <hi>Norfolk, Suffolk, Cambridge</hi> and <hi>Lincoln,</hi> and ſome other Counties; yet when it becomes a General Complaint, I cannot ſee where we can then have Relief.</p>
+            <p>I would not Omit the Collection of ſome Things I obſerve in a ſmall Tract, printed in the Year 1697. under the Notion of a Letter to a <hi>Parliament</hi> Man; who ſays,</p>
+            <p>
+               <hi>I have hitherto given my Obſervations and Thoughts in general, how all Nations have ac<g ref="char:EOLhyphen"/>quir'd their proportions of Gold and Silver, and that they have moſt, who depend leaſt on their Native Product; Art and Labour are the only Philoſophers Stone, that turns the Product of the Earth into Gold.</hi>
+            </p>
+            <p>
+               <hi>You ſee, I have all along in this Diſcourſe ſhewn, that it is by Labour and Manufacture Bullion is brought into any Country.</hi>
+            </p>
+            <p>
+               <hi>Now if this be ſo, then we have that Foundation left us, by which all the Treaſure of the World is purchas'd. But if we loſe our Manufactures, we at the ſame time deſtroy our Navigation, it being our Manufactures which ſend our Ships abroad, and they likewiſe invite them home again with Oyl and Dying Stuffs,</hi> &amp;c.</p>
+            <p>
+               <hi>If we make a right uſe of our preſent Exigences,
+<pb n="25" facs="tcp:136903:17"/> we may turn them to the Advantage and En<g ref="char:EOLhyphen"/>largement of our Manufacture.</hi>
+            </p>
+            <p>
+               <hi>Neceſſity we ſay is the Mother of Invention, and there ſeems reaſon to believe it will be the Father of our Riches; and if it had no other effect, but to abate our Forreign Expence, it might in a few Years fill this Kingdom with Gold and Silver; it is not commonly conſidered, how much ſaving multiplies Treaſure: And ſure this muſt be of mighty Advantage to us, when we abate our For<g ref="char:EOLhyphen"/>reign Expence and encreaſe our home, upon that which will bring us in Bullion.</hi>
+            </p>
+            <p>
+               <hi>It is ſaid the Fair Sex are ſhewing us the way how to ſave and enrich theſe Nations, may they be the Happy Inſtruments of doing ſo great a Good<g ref="char:punc">▪</g>
+               </hi>
+            </p>
+            <p>Vives <hi>in his Book of a Chriſtian Woman, tells us, that he heard it reported when he was a Boy, that in a City of</hi> Spain <hi>the Young Men abound<g ref="char:EOLhyphen"/>ing in Wealth, gave themſelves up to Exceſs and Extravagancy, which the Ladies obſerving, and forſeeing that it would be the ruin of the City; united in a Reſolution that they would abate in their own, and deſpiſe and turn their Backs on all Men that were Extravagant and Gay in their Cloaths</hi>
+            </p>
+            <p>
+               <hi>The preſent Circumſtances we are under, alters not my Opinion which I have given in another place, That the Parſimony of the Rich is the Ruin of the Poor; and in Truth, in ſome caſes Damage to themſelves: But what I ſay here of the Expence of our Gentry, relates to Forreign Manufactures, ſuch as are more for Curioſity than <g ref="char:V">Ʋ</g>ſe; and had it not been for our Exceſs in them, the Reign of King</hi> Charles<g ref="char:punc">▪</g> 
+               <hi>the</hi> Second <hi>had loaded this King<g ref="char:EOLhyphen"/>dom
+<pb n="26" facs="tcp:136903:18"/> with Coin and Bullion: Would it not then be our greateſt Wiſdom, to retrieve that in this Reign that we loſt in that; I mean our Senſes as well as Money; both which run a Tilt, while we exceed our Old Character of being Apes of Imitation, and become Apes of Invention, our Great Maſters of Trade, ſending Patterns for</hi> Indians <hi>to work out the Money of the Nation from the Rich, and the Bread out of the Mouths of the Poor; perhaps our preſent Neceſſities may make us think: And if we did ſo, I believe we might yet be the greateſt People for Trade and Navigation in the World; and were rightly poſſeſt of that, we need not fear the Power of all the World. Our Element is the Sea, our Buſineſs is there, nor are we Maſters of our Poſſeſſions on the Land longer than we command the Sea, and that is not to be done only by Ships of War, it is our Fleets in Trade, that are the Nurſery of our Fleets in War.</hi>
+            </p>
+            <p>
+               <hi>We are an Original in every thing and that I take to be our Misfortune, as it might have been our Happineſs; for certainly no Civilized People in the World, would make ſo little of ſuch Ineſtimable Funds as we have to work upon; what would the</hi> Dutch <hi>(and to our ſhame, we may now bring in the</hi> French) <hi>do, if they had our Mines of Lead, and Tin, our Fleeces of Wool,</hi> &amp;c. <hi>And to com<g ref="char:EOLhyphen"/>pleat all, an Induſtrious and Ingenuous</hi> People <hi>to manufacture and improve them. Can any one be<g ref="char:EOLhyphen"/>lieve the Councils of</hi> Holland <hi>or</hi> France <hi>would credit a few Merchants and Retailers that ſhould tell them, notwithſtanding theſe mighty Advantages you have above the World, you ſhall ſell none of them, if you will not wear the Livery of the</hi> Indians, <hi>and
+<pb n="27" facs="tcp:136903:18"/> that you muſt purchaſe with your Money, not with Commodities; but them you muſt ſell to all Na<g ref="char:EOLhyphen"/>tions, and having turn'd them into Money ſend it to the</hi> Eaſt-Indies: <hi>There muſt certainly be ſome wonderful Charm in this matter, to make Men fear that all the Nations in the World will com<g ref="char:EOLhyphen"/>bine againſt us, if we wear not the Manufactures of the</hi> Indies.</p>
+            <p>
+               <hi>Money can no way be brought into the King<g ref="char:EOLhyphen"/>dom, but by the Export of our Manufactures; ſo that nothing but our ill Conduct can hinder us from full Supplies of Gold and Silver. We account no Man poor, that hath Flocks and Herds, tho' he hath not Money; and the ſame Reaſon holds for a Country that abounds with Natural and Arti<g ref="char:EOLhyphen"/>ficial Commodities, that are as Neceſſary for For<g ref="char:EOLhyphen"/>reign <g ref="char:V">Ʋ</g>ſe as our Flocks and Herds at home; and are not for Luxury and Luxurious Effeminate Expences, but are <g ref="char:V">Ʋ</g>tenſils of Life and Society, which a great part of the World are ſupplied with.</hi>
+            </p>
+            <p>In the Year 1669. was laid before King <hi>Charles</hi> the <hi>Second</hi> an Account, by what ways the Trade and Riches of <hi>England</hi> was begun, and alſo how it was undermin'd, and after<g ref="char:EOLhyphen"/>wards at ſeveral times Propoſals conducing to our Preſervation, was alſo laid before that Prince, <hi>&amp;c.</hi>
+            </p>
+            <p>And in the Year 1677. was publiſhed in Print by divers Perſons, and more particularly by Mr. <hi>Andrew Marvyl,</hi> what Evil Conſe<g ref="char:EOLhyphen"/>quence the Exportation of our Wool to <hi>France</hi> was to <hi>England;</hi> and that there had been for ſome Years near Twenty thouſand Packs an<g ref="char:EOLhyphen"/>nually imported into the Town of <hi>Callice,</hi>
+               <pb n="28" facs="tcp:136903:19"/> and much of it from <hi>Kent;</hi> that before ſuch Quantities of Wool were exported, there was a conſiderable Trade of the Wollen Manufacture in that Country; but it's now almoſt loſt, and yet ſome Perſons of that Country favouring the Exportation of Wool, in their Prints ſeem to be pleaſed, that they have the leſs poor in their Country thereby; it's neceſſary for ſuch to conſider, what they would do with the Sheep and Bullocks brought up to <hi>London,</hi> if all other Countries now employed in Wollen Manufa<g ref="char:EOLhyphen"/>cture brought up thither (which is the grand Wheel that carries on Trade) were as much depopulated as <hi>Kent.</hi>
+            </p>
+            <p>Give me leave to compare Profit and Loſs, ſuppoſe <hi>Kent</hi> was the only County in <hi>England</hi> which produced Wool, and that 6000 Packs were yearly grown there, and put the Rate of 10 <hi>l. per Pack,</hi> which amounts to 60000 <hi>l.</hi> and ſo exported rough, but if that Wool was ma<g ref="char:EOLhyphen"/>nufactur'd in <hi>Kent,</hi> and then exported, it would amount to 720000. ſo take out the 60000 <hi>l.</hi> for the Wool, <hi>Kent</hi> would have gain'd 660000 <hi>l.</hi> but now <hi>France</hi> hath got it; and as they have taſted the ſweetneſs, and found the ſinnes of our Trade, ſo they have not ſpared any Coſt to gain it from us, by getting our Wool, either by Craft or Force, for there was not more Art and Skill uſed by King <hi>Ed.</hi> 3. in bringing home the Wollen Manufacturers at firſt to the Wool, than hath been of late to export it to <hi>France;</hi> the Conſequence of which is not only injuri<g ref="char:EOLhyphen"/>ous to us, in the loſs of what we formerly ex<g ref="char:EOLhyphen"/>ported of our Wollen Manufacture thither, but al<g ref="char:EOLhyphen"/>ſo by their ſupplying Forreign Markets with the
+<pb n="29" facs="tcp:136903:19"/> Manufacture made with our Wool much cheaper than we, by reaſon of the cheap Workmanſhip in <hi>France,</hi> the which is three or four times the Value of the Wool; which if the <hi>French</hi> had not our Wool, they could not make any conſide<g ref="char:EOLhyphen"/>rable Quantity of the Wollen Manufacture (<hi>viz.</hi>) Worſted, Stuffs and Stockings, which is now a Conſiderable Part of our Wollen Manufacture.</p>
+            <p>But this is not all, but we have been im<g ref="char:EOLhyphen"/>poſed upon by the Conſumption of the <hi>French</hi> Manufactury in our own wearing, all the Reign of the two late Kings, which was very great before the late War; but ſince by the great Encreaſe of <hi>Eaſt-India</hi> Commodities, the <hi>French</hi> have been underſold: So that from the whole matter, we have not only loſt a great part of the Export of our Wollen Manufacture and in a way to loſe all, but much of the Conſump<g ref="char:EOLhyphen"/>tion of our own wearing; the Evil Conſequence of which, I fear we ſhall too ſenſibly feel, and to take Notice what is already paſt; as is very well Obſerved by Mr. <hi>Tho. Smith,</hi> in a Tract printed the laſt Year, which he hath alſo pub<g ref="char:EOLhyphen"/>liſhed another; Intituled, <hi>Profit and Loſs.</hi>
+            </p>
+            <p>As to the Firſt, The ruin of the <hi>Tammy</hi> and <hi>Greenſay</hi> Trade, ſetled in <hi>Suffolk</hi> and <hi>Norfolk</hi> for many years, the Uſe of theſe Commodies was for our Home Conſumption, which be<g ref="char:EOLhyphen"/>twixt Twenty or Thirty Years agoe, the <hi>Eaſt-India</hi> Company brought over ſuch Quantities of <hi>Callicoes</hi> ſtain'd, <hi>&amp;c.</hi> which wholly turn'd thoſe of our Commodities out of doors, not only the Wear here, but the Export of it to <hi>Ireland, Scotland,</hi> and our Plantations, and the
+<pb n="30" facs="tcp:136903:20"/> People employed forced to leave their Houſes, which ſtanding empty where Tradeſmen in<g ref="char:EOLhyphen"/>habited, Landlords abating 20 <hi>l. per Cent.</hi> of their Rent, nay, offering large good Houſes to any that would keep them in repair, which did alſo affect the Counties of <hi>Lincoln, Lei<g ref="char:EOLhyphen"/>ceſter, Northampton,</hi> and <hi>Warwick</hi> by the Fall of the price of Wool at that time.</p>
+            <p>The next Inſtance is in <hi>Spittle-fields,</hi> there was firſt the <hi>Walloons,</hi> and ſince by the <hi>Engliſh</hi> a very large Silk Manufacture ſetled, till the <hi>Eaſt-India</hi> Company ſent Patterns and Workmen unto the <hi>Indies,</hi> and by that means beat the <hi>Engliſh</hi> out of that Trade.</p>
+            <p>A third Inſtance is, the <hi>Gloceſter-ſhire</hi> Cloth exported by the <hi>Turkey</hi> Merchants, which brings home Silk and Grogrin Yarn in return, which by the means of the <hi>Eaſt-India</hi> Commodities, the ſaid Merchants Effects lye upon their Hands, and inſtead of Exporting 30000 Cloaths in a Year, now 5000 ſerve the turn.</p>
+            <p>The laſt Inſtance is, the miſerable Condi<g ref="char:EOLhyphen"/>tion of the Manufacturers of <hi>Canterbury,</hi> theſe People are Weavers of Silk, the Foundation of which Trade was laid in the time of Queen <hi>Elizabeth,</hi> when the Nobility and Gentry of <hi>England</hi> were in earneſt to advance the Na<g ref="char:EOLhyphen"/>tion; when the Trades of <hi>Norwich, Colcheſter, London, Exon</hi> and <hi>Canterbury</hi> had their Origi<g ref="char:EOLhyphen"/>nal, and greatly encouraged: And this of <hi>Can<g ref="char:EOLhyphen"/>terbury</hi> I ſhall particularly mention, what fell out betwixt the Years, 1697, and 1698.</p>
+            <p>The Traders in <hi>Canterbury</hi> upon ſome pro<g ref="char:EOLhyphen"/>ſpect of Trade, provided Quantities of Goods
+<pb n="31" facs="tcp:136903:20"/> for the <hi>Engliſh</hi> and <hi>Weſt-India</hi> Markets, but the coming in of <hi>Indian</hi> Damask in the <hi>Fleet</hi> Frigot; the ſaid <hi>Canterbury</hi> Men were ruined, unleſs they could have metamorphoſed their Tabbies, made of very rich <hi>Italian</hi> Silk, that came in Exchange for <hi>Engliſh</hi> Serge, into <hi>In<g ref="char:EOLhyphen"/>dian</hi> Silk; they muſt leave Trading, or ſell at 30 or 40. <hi>per Cent.</hi> loſs: By which means, half the Workmen of that Town of the weaving Trade, are now running up and down the Nation ſeeking Bread, and their Families left to the Pariſhes to maintain, and the Trade by which that Town hath been upheld for an Hundred Years come to nothing: Theſe are ſome of the paſt Effects of the <hi>Eaſt-India</hi> Trade, with reſpect to the <hi>Engliſh</hi> Manufactury; and who ſhall pay the Damage?</p>
+            <p>The next Thing to be conſider'd is, what further Miſchief this Trade may do to the other Manufactures of <hi>England,</hi> and this is to be Evidenced upon what they have begun and tryed upon; and partly upon this Suppoſition, that whatever Commodity is made in <hi>England</hi> of Wool, may be imitated, and in many re<g ref="char:EOLhyphen"/>ſpects exceeded in <hi>Cotton</hi> manufactured in <hi>India,</hi> and be afforded cheaper than our <hi>Engliſh</hi> Tradeſ<g ref="char:EOLhyphen"/>men can afford theirs, and be New and Odd, and ſo pleaſing, that it will be the Intereſt of the <hi>Indian</hi> Traders to encourage ſuch Trades.</p>
+            <p>They have already brought over great Quan<g ref="char:EOLhyphen"/>tities of double Callicoes, uſed in the room of <hi>Engliſh</hi> Flannels for Shifts and other Uſes; beſides great Quantities of Cotton Stockings, which are both worn here, and exported to the <hi>Weſt-Indies.</hi>
+            </p>
+            <pb n="32" facs="tcp:136903:21"/>
+            <p>As for Stuffs, they have brought already great Quantities of Cotton Stuffs, dyed, ſtrip<g ref="char:EOLhyphen"/>ped, plain, mixed Colour, in the directeſt op<g ref="char:EOLhyphen"/>poſition to Wollen Stuffs.</p>
+            <p>As for Silk and Cotton mixed, it were al<g ref="char:EOLhyphen"/>moſt Endleſs to give an Account how many ſorts of <hi>Norwich</hi> and <hi>London</hi> Stuffs, that are made of Silk and <hi>Engliſh</hi> Wool, they have imitated and outdone as to Price in Silk and Cotton, but we may Note, that the <hi>New-Drapery</hi> ſo called is much more than <hi>Old.</hi>
+            </p>
+            <p>But ſuppoſe all thoſe Manufactures ſhould be ruin'd, ſure they cannot hurt the Cloth Trade; ſay the Agents of the <hi>Eaſt-India</hi> Company. In Anſwer, Why may not a Commodity made of Cotton put down Cloth. Cotton is as fine and ſoft as Wool, it may be ſpun as ſmall or as large, it may be mill'd and dreſs'd dyed and ſtained, and when the <hi>Engliſh</hi> Merchant ſhall ſend over Cloth-weavers, <hi>&amp;c.</hi> I queſtion not but we ſhall have Cotton Cloth, and Knaves to make it a Faſhion, and Fools enough to wear it; and though thoſe Calamities are upon us, and many more in view, though nothing but employing our People can pre<g ref="char:EOLhyphen"/>ſerve this Nation; yet that Trade muſt be free, tho' it brings the Nation in Bondage, whereas formerly a Million at leaſt were em<g ref="char:EOLhyphen"/>ployed in the Wollen Manufacture, who were Inſtrumental in diſtributing near Four Mil<g ref="char:EOLhyphen"/>lions <hi>per Annum</hi> for Bread and other <hi>Neceſſa<g ref="char:EOLhyphen"/>ries,</hi> which the Graziers and Farmers (Ten<g ref="char:EOLhyphen"/>nants to the Nobility and Gentry) received; which Perſons alſo did bear part of the Taxes which ſupported the Government, and
+<pb n="33" facs="tcp:136903:21"/> therefore in all reaſon one would think, de<g ref="char:EOLhyphen"/>ſerves Conſideration and the greateſt Encou<g ref="char:EOLhyphen"/>ragement: Yet on the contrary, we find by ſad Experience, that many are more fond of the <hi>Eaſt-India</hi> Commodities than ever; ſo that that is encreaſing, as may more evidently ap<g ref="char:EOLhyphen"/>pear by a Printed <hi>Liſt,</hi> which was this Year given to the Parliament, of the Number of Ships ſent out and return'd in Two Years laſt paſt, with ſeveral Remarks and Queries, and Obſervations thereupon; an Abſtract of which I have here recited, and is as followeth. (<hi>viz.</hi>)</p>
+            <p>
+               <table>
+                  <row>
+                     <cell>
+                        <hi>That there hath ſailed for the</hi> Eaſt-Indies <hi>and</hi> China, 52 <hi>Ships ſince the</hi> 10th. <hi>of</hi> February, 1697. <hi>the Account of their Cargo of 26 of their Ships amounts to</hi>
+                     </cell>
+                     <cell>1, 114, 933.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>The Cargoes carried out by the Captains,</hi> &amp;c.</cell>
+                     <cell>111, 993.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>Total of 26 Ships amounts to</hi>
+                     </cell>
+                     <cell>1, 226, 426.</cell>
+                  </row>
+                  <row>
+                     <cell>Note, <hi>By the Rule of Proportion, 52 Ships muſt carry out, beſides what is taken in at</hi> Cadiz, <hi>which is very conſiderable.</hi>
+                     </cell>
+                     <cell>2, 452, 852.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>Note, <hi>Of this great Sum not a</hi> 40th. <hi>part con<g ref="char:EOLhyphen"/>ſiſts of our Wollen Manufacture, and that they ſend out does prevent a greater Quantity, which would be ſent out by the</hi> Turkey-Company; <hi>which would return raw Silk to carry on that Manu<g ref="char:EOLhyphen"/>facture in</hi> England.</p>
+            <pb n="34" facs="tcp:136903:22"/>
+            <p>
+               <table>
+                  <row>
+                     <cell>Note, <hi>That according to the uſual Account of the Sales by the Candle, the Goods amount to treble the firſt Coſt; if ſo, the whole Cargoes brought in will come to</hi>
+                     </cell>
+                     <cell>7, 388, 556.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>Theſe ſold by the whole ſale Buyer to the Retailers, allowing 10 per</hi> Cent. <hi>Profit to ſuch Whole-ſale Buyers comes to</hi>
+                     </cell>
+                     <cell>738, 855.</cell>
+                  </row>
+                  <row>
+                     <cell>
+                        <hi>Total Value in the Retailers Hands.</hi>
+                     </cell>
+                     <cell>8, 127, 411.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <hi>Memorandum,</hi> When the Profit the Retailer makes of this great Sum, paid for by the Conſumer, muſt of courſe encreaſe the ſaid Sum; which is a Loſs to the Nation.</p>
+            <p>
+               <table>
+                  <row>
+                     <cell>Note, <hi>That by a Computation of our Wollen Manufacture made in</hi> England <hi>in one Year, comes to but and the</hi> Eaſt-India <hi>Goods comes to near that Sum by the Rule of Pro<g ref="char:EOLhyphen"/>portion according to their preſent Trade.</hi>
+                     </cell>
+                     <cell>4, 850, 558.</cell>
+                  </row>
+               </table>
+            </p>
+            <p>
+               <hi>Memorandum,</hi> That in the <hi>London-Gazette</hi> of the <hi>25th.</hi> of <hi>January</hi> laſt, that a Ship be<g ref="char:EOLhyphen"/>longing to the <hi>French-India</hi> Company is arriv'd at <hi>Diep</hi> from <hi>Surrat;</hi> 'tis ſaid her Cargo is worth near 200000 <hi>Crowns,</hi> and that great part of her Cargo conſiſts in Gold and Silver, which ſhe brought from the Iſle of <hi>Bour<g ref="char:EOLhyphen"/>bon.</hi>
+            </p>
+            <pb n="35" facs="tcp:136903:22"/>
+            <p>Note, <hi>The Difference of this Ships Cargo, ours bring over Wrought Goods to the Deſtruction of our Manufactures, at the Expence of our Silver; the</hi> French <hi>brings over Gold and Silver, to ſup<g ref="char:EOLhyphen"/>port their Government and Trade.</hi>
+            </p>
+            <p>Query, <hi>Whether the Difference may not proceed from the Diſcouragement, that the</hi> French <hi>put up<g ref="char:EOLhyphen"/>on the</hi> Eaſt-India <hi>Manufacture ſome Years ſince, as appears by the Decree which followeth.</hi>
+            </p>
+            <div type="decree">
+               <head>A <hi>Decree</hi> of the <hi>French</hi> King's Council of State, concerning <hi>Callicoes</hi> printed in <hi>Eaſt-India,</hi> or printed in the King<g ref="char:EOLhyphen"/>dom, and other <hi>China</hi> and <hi>India</hi> Silks, Stuffs, and Flowered with Gold and Sil<g ref="char:EOLhyphen"/>ver: Given the <hi>26th.</hi> of <hi>October, 1686.</hi>
+               </head>
+               <p>THE King being informed, That the great Quantities of <hi>Callicoes,</hi> printed in <hi>Eaſt-India,</hi> or painted in the King<g ref="char:EOLhyphen"/>dom, and other <hi>China</hi> and <hi>India</hi> Silks, Stuffs, and Stuffs flower'd with Gold and Silver, have not only given Occaſion of Tranſporting many Millions, but alſo have diminiſhed the Manufactures of Old Eſtabliſhed in <hi>France,</hi> for making of <hi>Silk, Wollen, Linen</hi> and <hi>Hemp-ſtuffs,</hi> and at the ſame time the Ruine and Deſtru<g ref="char:EOLhyphen"/>ction of the Working People, who, by want of Work, having no Occupation, or Subſiſtence for their Families, are gone out of the King<g ref="char:EOLhyphen"/>dom; the which, being needful to provide a
+<pb n="36" facs="tcp:136903:23"/> Remedy for, and for that Effect to hinder the Trade and <gap reason="illegible" resp="#KEYERS" extent="2 letters">
+                     <desc>••</desc>
+                  </gap>le in the Kingdom of the ſaid <hi>Printed Callicoes,</hi> and <hi>India</hi> and <hi>China</hi> Silks and Stuffs, nevertheleſs granting to the Owners a reaſonable Time to ſell them in. Having heard the Report of Mounſieur <hi>Pellitier,</hi> Counſeller Ordinary of the King's Royal Council, and Comptroller General of the Finances; his Ma<g ref="char:EOLhyphen"/>jeſty, in his Council hath ordered, and doth order, that from the beginning of the Day of the Publication of the preſent Decree, all the Manufactures eſtabliſhed in the Kingdom, for Painting of the White <hi>Callicoes,</hi> ſhall be aboliſhed; and the Moulds ſerving to the Printing of them ſhall be broke and deſtroyed: His Majeſty doth forbid moſt expreſly the re-eſtabliſhing thereof: Alſo to his Subjects the Painting of the ſaid <hi>Callicoes,</hi> and to the En<g ref="char:EOLhyphen"/>gravers the making of any Moulds ſerving to the ſaid Impreſſions, under the Penalty of lo<g ref="char:EOLhyphen"/>ſing the ſaid <hi>Callicoes,</hi> Moulds and other Uten<g ref="char:EOLhyphen"/>ſils, and Three Thouſand Livres Fine, to be paid without Diminution, one third part to the Informer, the ſecond part to the Hoſpitals of the Place, the third to the Farmers of the of the Revenue. And as concerning the Paint<g ref="char:EOLhyphen"/>ed <hi>Callicoes,</hi> and other <hi>China</hi> and <hi>India</hi> Silks, Stuffs, and Stuffs flower'd with Gold and Sil<g ref="char:EOLhyphen"/>ver, his Majeſty hath granted, and doth grant, to the laſt of <hi>December,</hi> 1687. next, to the Merchants and others, the permiſſion of ſelling them as they ſhall think fit: The ſame Time being expired, his Majeſty doth forbid all Per<g ref="char:EOLhyphen"/>ſons, of what Quality and Condition whatſo<g ref="char:EOLhyphen"/>ever they are, the expoſing and ſelling thereof;
+<pb n="37" facs="tcp:136903:23"/> and to particulars, the buying therof, doth or<g ref="char:EOLhyphen"/>der, That thoſe found in all Ware-houſes and Shops ſhall be burnt, and the Proprietors con<g ref="char:EOLhyphen"/>demn'd to the like Fine of Three Thouſand Livres, paid as aboveſaid. His Majeſty doth permit, nevertheleſs, the Entry, Sale and Re<g ref="char:EOLhyphen"/>tail, of the ſaid White <hi>Callicoes</hi> in his King<g ref="char:EOLhyphen"/>dom; paying for them the Taxes according to the Decree of the Council the <hi>30th.</hi> of <hi>April</hi> laſt, which ſhall be Executed; and that of the <hi>15th.</hi> of the preſent Month, to the laſt of <hi>De<g ref="char:EOLhyphen"/>cember,</hi> 1687. laſt year. His Majeſty doth com<g ref="char:EOLhyphen"/>mand the Lieutenant of the Policy of the City of <hi>Paris,</hi> and the Intendents and Commiſſaries of the Provinces and Generalties of the King<g ref="char:EOLhyphen"/>dom, to cauſe the preſent Decree to be executed, being publiſhed and affixed in all Places where need ſhall be, that no Body ſhould be ignorant thereof. <hi>Done in the King's State-Council held at</hi> Fountainbleau. <hi>Signed</hi> Coquille.</p>
+               <p>
+                  <hi>Note,</hi> Several of the <hi>French</hi> Printers ſince this <hi>Edict,</hi> are come over hither, and ſet up, and follow the ſame Employment.</p>
+               <p>
+                  <hi>Query,</hi> Whether the Printing of the Silks and Callicoes in <hi>England,</hi> is not as prejudicial to us as it was to the <hi>French?</hi>
+               </p>
+            </div>
+            <div type="observations">
+               <head>Suitable to this may be well Obſerved, ſome <hi>Obſer<g ref="char:EOLhyphen"/>vations</hi> of that once Famous <hi>Sir</hi> Joſiah Child. <hi>viz.</hi>
+               </head>
+               <p>THat Wool is eminently the Foundation of <hi>Engliſh</hi> Riches; and that the ways to equa<g ref="char:EOLhyphen"/>lize, or over-ballance our Neighbours, in our National Profit, by our Forreign Trade, are—To prevent the Exportation of our Wool, and
+<pb n="38" facs="tcp:136903:24"/> encourage our Wollen Manufactures: To en<g ref="char:EOLhyphen"/>courage thoſe Forreign Trades moſt, that vend moſt of our Manufactures, and that ſupply us with Materials further to be manufactured in <hi>England. [Diſcourſe of Trade,</hi> p. 127, 156.]</p>
+               <p>That its our Intereſt, by Example, and other Means, (not diſtaſteful) above all kind of Com<g ref="char:EOLhyphen"/>modities, to prevent, as much as may be, the Im<g ref="char:EOLhyphen"/>portation of Forreign Manufactures. [<hi>Pag.</hi> 161.] That it is multitudes of People, and ſuch Laws as cauſe an Encreaſe of People, which principally enrich any Country. [<hi>Preface.</hi>]—That Lands (tho' excellent) without hands proportionable, will not enrich any Kingdom. That whatever tends to the Depopulating any Kingdom, tends to the Impoveriſhment thereof. [<hi>Page</hi> 165, and 167.]</p>
+               <p>That it is our Duty to <hi>God</hi> and <hi>Nature,</hi> to pro<g ref="char:EOLhyphen"/>vide for and employ the Poor. That ſuch as our Employment is for the People, ſo many will our People be. [<hi>Page</hi> 56. 174.]—That it's the In<g ref="char:EOLhyphen"/>tereſt of a Kingdom the Poors Wages ſhould be high; for wherever Wages are high throughout the whole World, it is an infallible Evidence of the Riches of that Country; and where-ever Wa<g ref="char:EOLhyphen"/>ges for Labour runs low, its a Proof of the Pover<g ref="char:EOLhyphen"/>ty of that place—That the Expence of <hi>Forreign Commodities,</hi> eſpecially <hi>Forreign Manufactures,</hi> is the worſt Expence a Nation can be inclinable to, and ought to be prevented as much as poſſible.</p>
+            </div>
+            <div type="observation">
+               <head>To which may be added a Note of the Obſervation of the Author of the <hi>Eſſay</hi> on <hi>Ways</hi> and <hi>Means.</hi> viz.</head>
+               <p>TIS evident that our Wollen Goods are ſold in ſeveral Countries, namely, <hi>Holland, Ham<g ref="char:EOLhyphen"/>burgh,
+<pb n="39" facs="tcp:136903:24"/> Germany,</hi> the <hi>Hans</hi> Towns, and all the <hi>Eaſt</hi> Countries; many of which Places will not be able to take off our Wollen Goods, unleſs we deal for their Linnens. And in Fact, and by Ex<g ref="char:EOLhyphen"/>perience, it has been ſeen in the Caſe of the <hi>Eaſt-India</hi> Trade, ſince there has been imported from thence vaſt Quantities of Linnens, ſuch as <hi>Calli<g ref="char:EOLhyphen"/>coes, Muſlins, Romals</hi> for Handkerchiefs, which an<g ref="char:EOLhyphen"/>ſwered the ends of <hi>Lawns, Cambricks</hi> and other Linnen Cloth, we have not exported that vaſt Quantity of Drapery to thoſe <hi>Northern</hi> Parts, of which Sir <hi>Walter Rawleigh</hi> makes mention. As our Call for their Linnens had diminiſhed, their Call for our Draperies has proportionably decreas'd; and not only ſo, but theſe People have been com<g ref="char:EOLhyphen"/>pelled by Neceſſity to fall upon making courſe Wollen Cloth, by which they ſupply themſelves and other places, which we were wont to furniſh.</p>
+               <p>Note, <hi>That there has been exported to the</hi> Eaſt-Indies <hi>in about 2 Years, almoſt one third part as much ſilver as has been coined in</hi> England, <hi>ſince the Re<g ref="char:EOLhyphen"/>coining our Money.</hi>
+               </p>
+               <p>Query, <hi>Whether it be not as reaſonable to ſend our Money to the</hi> Eaſt <hi>Countries, to buy up Corn (which is very cheap) to feed us, as 'tis to ſend it to the</hi> Eaſt-Indies, <hi>for Garments to cloath us.</hi>
+               </p>
+               <p>Query, <hi>Whether it be not as neceſſary to reſtrain the Trade to the</hi> Eaſt-Indies, <hi>as it was to put a ſtop to the Exportation of Wollen Manufacture from</hi> Ireland.</p>
+               <p>Query, <hi>Whether the</hi> Eaſt-India <hi>Traders (if not re<g ref="char:EOLhyphen"/>ſtrain'd) may not in a ſhort time, bring over vaſt Quantities of Stuffs for Mens Wear, ſince they have la<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>ely imported fine</hi> Cotton Druggets <hi>very fit for that p<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap>rpoſe, and ſold at Cheap Rates.</hi>
+               </p>
+               <pb n="40" facs="tcp:136903:25"/>
+               <p>Query, <hi>Whether the ſending above two Mi<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                        <desc>•</desc>
+                     </gap> the</hi> Eaſt-Indies <hi>to make our wearing Apparel; our own Poor ſtarve for want of Employment, be <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Conſideration of great weight, and deſerve ſome <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                        <desc>〈◊〉</desc>
+                     </gap> Remedy.</hi>
+               </p>
+               <p>I ſhall therefore, from the whole Matter <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>clude, that if it be from our Manufacture tha<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> Riches of this Nation come; and if it be <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> from thence that our Shipping is employed, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> our Marriners bred; if it be from our Tra<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> alone, and from the Riches which it brings, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> his Majeſties <hi>Cuſtoms</hi> are raiſed; and that <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Fleets have been hitherto built and maintai<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and the Dominion of the Seas preſerved; the<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> is and muſt be from our Manufactures, that <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Bullion has been brought in, and that our Tr<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> hath been encreaſed, and by which the Rem<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> the Nobility and Gentry have been advanced<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </p>
+               <p>And therefore, it may be eaſily granted, <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> there is no higher Temporal Intereſt in this <gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>tion, than that which ſuſtains the Nobilities <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Gentries Rents; that which preſerveth the <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> venues of the Crown, and encreaſes our N<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> and Shipping.</p>
+               <p>Then in regard our Manufacture doth this <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> Encouragement of it muſt neceſſarily be the g<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>eſt Intereſt of the Nation to preſerve it; <gap reason="illegible" resp="#KEYERS" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> whoever pretents the contrary, tho' under n<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> ſo fair Diſguiſes; do either greatly betray I<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+                  <g ref="char:EOLunhyphen"/>rance of what is <hi>England's</hi> Intereſt, or pl<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> prove to be a Promoter of a Forreigners, &amp;c<gap reason="illegible" resp="#KEYERS" extent="1 letter">
+                     <desc>•</desc>
+                  </gap>
+               </p>
+            </div>
+            <trailer>FINIS.</trailer>
+         </div>
+      </body>
+   </text>
+</TEI>
